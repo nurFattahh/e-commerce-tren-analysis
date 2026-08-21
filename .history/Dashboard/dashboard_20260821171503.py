@@ -497,7 +497,7 @@ with col4:
 st.divider()
 
 st.header(
-    "Analisis Nilai Transaksi"
+    "📈 Analisis Nilai Transaksi"
 )
 
 
@@ -557,7 +557,7 @@ st.pyplot(fig)
 # ------------------------------------------------------------
 
 st.subheader(
-    "10 Kategori Produk dengan Nilai Transaksi Terbesar"
+    "🏆 10 Kategori Produk dengan Nilai Transaksi Terbesar"
 )
 
 
@@ -603,7 +603,7 @@ st.pyplot(fig)
 # ------------------------------------------------------------
 
 st.subheader(
-    "Hubungan Harga Produk dan Ongkos Kirim"
+    "💰 Hubungan Harga Produk dan Ongkos Kirim"
 )
 
 
@@ -664,7 +664,7 @@ if len(filtered_q1) > 1:
 st.divider()
 
 st.header(
-    "Analisis Pengiriman & Kepuasan Pelanggan"
+    "🚚 Analisis Pengiriman & Kepuasan Pelanggan"
 )
 
 
@@ -690,7 +690,7 @@ col1, col2 = st.columns(2)
 with col1:
 
     st.subheader(
-        "Review Berdasarkan Ketepatan Pengiriman"
+        "⭐ Review Berdasarkan Ketepatan Pengiriman"
     )
 
 
@@ -733,7 +733,7 @@ with col1:
 with col2:
 
     st.subheader(
-        "Review Berdasarkan Tingkat Keterlambatan"
+        "⏱️ Review Berdasarkan Tingkat Keterlambatan"
     )
 
 
@@ -785,7 +785,7 @@ with col2:
 # ------------------------------------------------------------
 
 st.subheader(
-    "Ringkasan Pengiriman dan Review"
+    "📋 Ringkasan Pengiriman dan Review"
 )
 
 
@@ -1003,7 +1003,7 @@ st.dataframe(
 st.divider()
 
 st.subheader(
-    "Ringkasan Kategori Produk"
+    "📊 Ringkasan Kategori Produk"
 )
 
 
